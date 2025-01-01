@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist', // This specifies the output directory
+    sourcemap: true
   }
 })
