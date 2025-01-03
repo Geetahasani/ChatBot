@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8086/api/qna/ask";
+const API_URL = "https://demo-deployment-latest-muxb.onrender.com/api/qna/ask";
 
 export const fetchChatResponse = async (question) => {
     try {
